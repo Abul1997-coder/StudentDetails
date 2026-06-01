@@ -21,3 +21,19 @@ public class Student {
     private String department;
 
 }
+
+/*
+Purpose: Represents a database table.
+
+
+* Simple Interview Answer:
+Entity is a Java class that represents a database table.
+
+Class = Table
+Object = Row/Record
+Fields = Columns
+
+Student class → student table
+name, email → table columns
+
+We use @Entity annotation to tell Spring Boot/JPA that this class should be mapped to a database table.*/
